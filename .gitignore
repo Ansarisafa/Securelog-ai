@@ -1,0 +1,13 @@
+# Secrets - NEVER upload these
+.env
+
+# Python junk
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
