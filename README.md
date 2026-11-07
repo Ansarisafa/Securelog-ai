@@ -82,18 +82,3 @@ Optional: `event, login_hour, time`.
 3. Put it in `.env` as `EMAIL_APP_PASSWORD`, plus `EMAIL_SENDER` and `EMAIL_RECEIVER`.
 4. Click **Send Email Alerts** on the Dashboard or High Risk Users page.
 
-Never share or upload your `.env` file.
-
-## Common problems
-| Problem | Fix |
-|---|---|
-| `streamlit` is not recognised | Run `python -m streamlit run app.py` |
-| `ModuleNotFoundError` | Run `pip install -r requirements.txt` again (inside the venv) |
-| Live logs show sample data | Run the terminal as Administrator, on Windows only |
-| Gmail login failed | Use an App Password, not your normal password |
-
-## Important notes (be honest in your viva)
-* The risk labels used to train the Random Forest come from a transparent
-  rule-based threat score, so its accuracy is very high. The Isolation Forest
-  (unsupervised) is the part that finds unusual events without labels.
-* The sample dataset is fake (made by a script). Real logs need more tuning.
