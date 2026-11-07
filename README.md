@@ -82,3 +82,4 @@ Optional: `event, login_hour, time`.
 3. Put it in `.env` as `EMAIL_APP_PASSWORD`, plus `EMAIL_SENDER` and `EMAIL_RECEIVER`.
 4. Click **Send Email Alerts** on the Dashboard or High Risk Users page.
 
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/ea2f75c8-060d-4ff7-a76a-80df6c217f59" />
